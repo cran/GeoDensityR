@@ -1,9 +1,10 @@
-42237fb86d27c40409593c1c71a4e74e *DESCRIPTION
+96ba8db9eb3aa0b1a89b2ed826a54dbf *DESCRIPTION
 f5808b7d72416c003909aba5194c865f *LICENSE
 65fb427b811d991740b00aa80c624743 *NAMESPACE
-a0b65b5a6189db7b3cf9fcb6fc64020c *R/generate_density_raster.R
+b4ec6601ef787deab9e560374b366ba4 *NEWS.md
+bdd48deec4e505edccefa101d95f92ad *R/generate_density_raster.R
 f405c09b4351ee987335697171b2417f *README.md
-c1e7e1fdb7d074fe1abaa511d17a1c0a *man/generate_density_raster.Rd
+909b6d117d00a1df1ae9831d0c46def6 *man/generate_density_raster.Rd
 ae3b3df9970b49b6523e608759bc957d *tests/GJ_RJ_District_Shape_File.cpg
 5f7ece119f7af295e878d176265ec4b2 *tests/GJ_RJ_District_Shape_File.dbf
 7367adb9d0aca9690dde49c72d0a7f15 *tests/GJ_RJ_District_Shape_File.prj

@@ -1,7 +1,7 @@
 Package: GeoDensityR
 Type: Package
 Title: Generate Density Rasters from Polygon and Census Data
-Version: 0.1.2
+Version: 0.2.0
 Authors@R: 
     person(
         "Sahal",
@@ -9,24 +9,23 @@ Authors@R:
         email = "sahalpaladan@gmail.com",
         role = c("aut", "cre")
     )
-Description: Creates density rasters from polygon vector data and
-    tabular census or survey data. The package joins polygon
-    boundaries with attribute data, calculates densities,
-    rasterizes outputs, and exports ASCII Grid or GeoTiff rasters.
-    Methods are based on spatial rasterization workflows implemented
-    in the 'terra' package Hijmans (2025)
-    <https://rspatial.github.io/terra/>.
+Description: Creates continuous density raster surfaces by joining vector spatial 
+    layers with tabular data frameworks, normalizing values by ellipsoidal 
+    polygon area calculations. Reconciles discrete boundary-constrained census or 
+    survey counts with uniform grids. Accepts spatial objects in-memory or via 
+    file paths. Methods are based on spatial rasterization workflows implemented 
+    in the 'terra' package Hijmans (2025) <https://rspatial.github.io/terra/>.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: R (>= 4.1.0)
-Imports: terra
+Imports: terra, tools
 Suggests: testthat, knitr, rmarkdown
 URL: https://github.com/sahalpaladan/GeoDensityR
 BugReports: https://github.com/sahalpaladan/GeoDensityR/issues
 Config/roxygen2/version: 8.0.0
 NeedsCompilation: no
-Packaged: 2026-06-01 07:30:55 UTC; dell
+Packaged: 2026-07-24 07:08:51 UTC; dell
 Author: Sahal Paladan [aut, cre]
 Maintainer: Sahal Paladan <sahalpaladan@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-06-05 15:00:22 UTC
+Date/Publication: 2026-07-24 07:30:02 UTC
